@@ -3,32 +3,21 @@ import "../index.css";
 
 const HeroSection = () => {
   return (
-    <div className="radial-gradient-bg text-white h-screen flex flex-col justify-center items-center">
-      {/* Close Button */}
-      <div className="absolute top-4 right-4">
-        <button className="bg-gray-800 p-2 rounded-full">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={2}
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        </button>
-      </div>
+    <div className="radial-gradient-bg py-10 pt-1 text-white h-fit flex flex-col justify-center items-center">
+      {/* Navbar */}
+      <nav className="flex justify-between w-11/12 md:w-11/12 mx-auto py-4">
+        <div className="flex items-center space-x-1">
+          <img src="logo.png" alt="logo" className="md:w-[4rem] w-9"/>
+          <h1 className="md:text-3xl text-xl font-medium logotxt">Technovators</h1>
+        </div>
+      </nav>
+
 
       {/* Hero Content */}
-      <div className="text-center relative w-11/12 md:w-3/4 mx-auto">
+      <div className="text-center md:mt-24 mt-14 relative w-11/12 md:w-3/4 mx-auto">
         <div className="flex justify-center items-center flex-col">
-          <h1 className="md:text-7xl text-3xl font-bold">
-            Where Tech Gets{" "}
+          <h1 className="md:text-8xl text-5xl font-bold">
+            We are{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-orange-400">
               Technovators!
             </span>
@@ -36,7 +25,7 @@ const HeroSection = () => {
           <p className="md:mt-20 mt-10 font-medium md:text-4xl text-2xl">
             Together we define the future
           </p>
-          <p className="md:mt-20 mt-10 md:text-2xl text-xl font-medium text-gray-300 relative w-3/4 ">
+          <p className="md:mt-16 mt-10 md:text-2xl text-xl font-medium text-gray-300 relative md:w-3/4 leading-tight">
             Step into a virtual playground where creativity soars, ideas spark,
             and innovation knows no bounds. Ready to ignite your passion and
             make tech magic? Join us and let your brilliance shine!
