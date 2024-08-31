@@ -21,7 +21,7 @@ const Faq = () => {
           <h2 className="text-4xl font-normal mb-6">Want to be a Sponsor?</h2>
           <a
             href="#"
-            className="inline-block bg-white text-black px-8 py-3 rounded-md shadow-md font-bold transition-transform duration-300 hover:scale-105"
+            className="inline-block bg-white  text-black px-8 py-3 rounded-sm shadow-md font-bold transition-transform duration-300 hover:scale-105"
           >
             Apply <span className="inline-block ml-2">↗</span>
           </a>
@@ -32,13 +32,13 @@ const Faq = () => {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           {/* Left Side: FAQ Heading */}
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <h2 className="text-6xl font-bold mb-4">FAQ</h2>
+            <h2 className="text-6xl orangetext font-bold mb-4">FAQ</h2>
             <p className="text-2xl mb-6">
               Feeling Overwhelmed? Reach out to us.
             </p>
             <a
               href="mailto:techclub@iiitkottayam.ac.in"
-              className="inline-block bg-white text-black px-6 py-3 rounded-md shadow-md font-bold transition-transform duration-300 hover:scale-105"
+              className="inline-block bg-white text-black px-6 py-3 rounded-md shadow-md font-bold transition-transform duration-300 hover:scale-105 btnhl"
             >
               Contact Us <span className="inline-block ml-2">↗</span>
             </a>

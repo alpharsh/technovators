@@ -22,3 +22,34 @@
     text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
         1.5px 1.5px 0 #000;
 }
+
+.orangetext{
+  color: rgba(255, 200, 151,1);
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+        1.5px 1.5px 0 #000;
+}
+
+.btnhl {
+  font: inherit;
+  font-size: 1.2em !important;
+  font-weight: 700;
+  padding: 0.75em;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  /* position: absolute; */
+  box-shadow: 0.2em 0.2em rgb(0, 0, 0);
+  transition: all 0.1s ease-in-out;
+  border: 1px rgb(0, 0, 0) solid;
+  margin-top: 2rem;
+  border-radius: 3px;
+}
+.btnhl:hover {
+  box-shadow: 0.3em 0.3em rgb(0, 0, 0);
+  transform: translate(-0.1em, -0.1em);
+}
+.btnhl:active {
+  box-shadow: 0em 0em rgb(0, 0, 0);
+  transform: translate(0.2em, 0.2em);
+}

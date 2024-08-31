@@ -25,10 +25,9 @@ const sponsors = [
 
 const Sponsors = () => {
   return (
-    <section className="py-16 bg-gradient-to-b from-[#ffc99a] via-[#ffd8bb] to-[#fdd7b7]">
+    <section className="py-16 bg-gradient-to-b from-[#ffe7d3] via-[#ffd8bb] to-[#fdd7b7]">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-8">SPONSORS</h2>
-        <div className="h-1 w-16 bg-blue-500 mx-auto mb-12"></div>
+        <h2 className="text-5xl whitetext font-bold mb-8">SPONSORS</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {sponsors.map((sponsor) => (
             <a href={sponsor.link} key={sponsor.name} target="_blank" rel="noopener noreferrer">
