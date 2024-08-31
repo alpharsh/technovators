@@ -1,7 +1,9 @@
 import './App.css'
 import AboutSection from './components/About'
+import Faq from './components/Faq'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
+import Sponsors from './components/Sponsers'
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
     <>
     <Hero />
     <AboutSection />
+    <Sponsors />
+    <Faq />
     <Footer />
     </>
   )
