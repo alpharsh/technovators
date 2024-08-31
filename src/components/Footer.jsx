@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-10 px-8">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
+    <footer className="bg-gray-900 text-white pt-10 md:px-8 px-5">
+      <div className="mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="mb-8 md:mb-0 relative md:w-1/2">
           <img src="logo.png" alt="logo" className="h-12 mb-4" />
-          <p className="text-gray-400 text-xl leading-tight">
+          <p className="text-gray-400 md:text-lg text-base leading-tight">
             Technovators Club is a vibrant community dedicated to organizing
             technical events like hackathons, talks, and workshops. Our mission
             is to foster innovation and collaboration among tech enthusiasts,
@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="text-left">
           <h3 className="text-xl font-semibold mb-2">Address</h3>
           <div className="h-1 w-full rounded-md bg-custom-gradient mb-4"></div>
-          <p className="text-gray-400 text-xl leading-tight">
+          <p className="text-gray-400 md:text-lg text-base leading-tight">
             United College of Engineering and Research, Prayagraj
             <br />
             UPSIDC Industrial Area, Naini
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="mt-8 border-t border-gray-700 pt-4 text-center text-gray-500 text-lg">
+      <div className="md:mt-8 mt-5 border-t mb-1 border-gray-700 pt-4 text-center text-gray-500 text-base">
         Made with <span className="text-red-500">❤</span> by alpharsh.
       </div>
     </footer>
