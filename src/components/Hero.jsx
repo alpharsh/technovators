@@ -25,7 +25,7 @@ const HeroSection = () => {
           <p className="md:mt-20 mt-10 font-medium md:text-4xl text-2xl">
             Together we define the future
           </p>
-          <p className="md:mt-16 mt-10 md:text-2xl text-xl font-medium text-gray-300 relative md:w-3/4 leading-tight">
+          <p className="md:mt-16 mt-10 md:text-2xl text-xl font-light text-gray-300 relative md:w-3/4 leading-tight">
             Step into a virtual playground where creativity soars, ideas spark,
             and innovation knows no bounds. Ready to ignite your passion and
             make tech magic? Join us and let your brilliance shine!

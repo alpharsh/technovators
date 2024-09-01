@@ -32,7 +32,7 @@ const Footer = () => {
               <i className="fab fa-linkedin-in"></i>
             </a>
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/technovators_society/"
               className="text-gray-400 md:text-2xl text-xl hover:text-white bg-gray-300 bg-opacity-20 rounded-full md:p-2 p-1 md:px-[0.90rem] px-[0.65rem]"
             >
               <i className="fab fa-instagram"></i>
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="md:mt-8 mt-5 border-t border-gray-700 pt-4 text-center text-gray-500 text-base">
-        Made with <span className="text-red-500">❤</span> by alpharsh.
+        Made with <span className="text-red-500">❤</span> by <a href="https://www.linkedin.com/in/alpharsh" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>alpharsh</a>.
       </div>
     </footer>
   );
