@@ -3,7 +3,7 @@ import "../index.css";
 
 const HeroSection = () => {
   return (
-    <div className="radial-gradient-bg py-10 pt-1 text-white h-fit flex flex-col justify-center items-center">
+    <div className="radial-gradient-bg py-10 pt-1 text-white h-screen md:h-fit flex flex-col justify-center items-center">
       {/* Navbar */}
       <nav className="flex justify-between w-11/12 md:w-11/12 mx-auto py-4">
         <div className="flex items-center space-x-1">
