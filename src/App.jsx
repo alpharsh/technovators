@@ -1,5 +1,6 @@
 import './App.css'
 import AboutSection from './components/About'
+import Coordinators from './components/Coordinators'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
 import GridGallery from './components/GridGallery'
@@ -13,6 +14,7 @@ function App() {
     <Hero />
     <AboutSection />
     <GridGallery />
+    <Coordinators />
     <Sponsors />
     <Faq />
     <Footer />

@@ -13,6 +13,38 @@
   font-family: "Outfit", sans-serif;
 }
 
+*::selection{
+  background: #8c58fcda; /* Disable this to switch selection color to blue */
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #858585 #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 11px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #858585;
+  border-radius: 7px;
+  border: 0px none #a09eff;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #cacaca;
+}
+
+
+/* ====== CSS used in the Files ====== */
 .radial-gradient-bg {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
