@@ -3,7 +3,7 @@ import "../index.css";
 
 const HeroSection = () => {
   return (
-    <div className="radial-gradient-bg py-10 pt-1 text-white h-screen md:h-fit flex flex-col justify-center items-center">
+    <div className="radial-gradient-bg py-10 pt-1 text-white md:h-fit flex flex-col justify-center items-center">
       {/* Navbar */}
       <nav className="flex justify-between w-11/12 md:w-11/12 mx-auto py-4">
         <div className="flex items-center space-x-1">
@@ -26,7 +26,7 @@ const HeroSection = () => {
           <p className="md:mt-20 mt-10 font-medium md:text-4xl text-2xl">
             Together we define the future
           </p>
-          <p className="md:mt-16 mt-10 md:text-2xl text-xl font-light text-gray-300 relative md:w-3/4 leading-tight">
+          <p className="md:mt-16 mt-10 md:text-2xl text-xl font-light text-gray-300 relative  md:w-3/4 leading-tight">
             Step into a virtual playground where creativity soars, ideas spark,
             and innovation knows no bounds. Ready to ignite your passion and
             make tech magic? Join us and let your brilliance shine!
