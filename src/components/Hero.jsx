@@ -7,11 +7,12 @@ const HeroSection = () => {
       {/* Navbar */}
       <nav className="flex justify-between w-11/12 md:w-11/12 mx-auto py-4">
         <div className="flex items-center space-x-1">
-          <img src="logo.png" alt="logo" className="md:w-[4rem] w-9"/>
-          <h1 className="md:text-3xl text-xl font-medium logotxt">Technovators</h1>
+          <img src="logo.png" alt="logo" className="md:w-[4rem] w-9" />
+          <h1 className="md:text-3xl text-xl font-medium logotxt">
+            Technovators
+          </h1>
         </div>
       </nav>
-
 
       {/* Hero Content */}
       <div className="text-center md:mt-24 mt-14 relative w-11/12 md:w-3/4 mx-auto">
@@ -34,9 +35,11 @@ const HeroSection = () => {
 
         {/* Buttons */}
         <div className="mt-16 flex justify-center space-x-4">
-          <button className="md:px-11 px-7 md:py-2 py-1 rounded-full text-lg text-black font-bold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
-            Register
-          </button>
+          <a href="https://forms.gle/wqVkCVVWkugthLGv9" target="_blank">
+            <button className="md:px-11 px-7 md:py-2 py-1 rounded-full text-lg text-black font-bold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
+              Register
+            </button>
+          </a>
           <button className="md:px-7 px-4 md:py-2 py-1 rounded-full text-lg font-medium border-2 border-gray-300 hover:bg-gray-700 transition-all flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
