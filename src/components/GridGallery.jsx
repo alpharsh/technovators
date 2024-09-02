@@ -25,6 +25,7 @@ const GridGallery = () => {
             <div className="overflow-hidden rounded-lg">
               <img
                 src={images[0]}
+                loading="lazy"
                 alt="Gallery Image 1"
                 className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
               />
@@ -32,6 +33,7 @@ const GridGallery = () => {
             <div className="overflow-hidden rounded-lg">
               <img
                 src={images[1]}
+                loading="lazy"
                 alt="Gallery Image 2"
                 className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
               />
@@ -41,6 +43,7 @@ const GridGallery = () => {
             <div className="overflow-hidden rounded-lg">
               <img
                 src={images[2]}
+                loading="lazy"
                 alt="Gallery Image 3"
                 className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
               />
@@ -48,6 +51,7 @@ const GridGallery = () => {
             <div className="overflow-hidden rounded-lg">
               <img
                 src={images[3]}
+                loading="lazy"
                 alt="Gallery Image 4"
                 className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
               />
@@ -55,6 +59,7 @@ const GridGallery = () => {
             <div className="overflow-hidden rounded-lg">
               <img
                 src={images[4]}
+                loading="lazy"
                 alt="Gallery Image 5"
                 className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
               />
@@ -64,6 +69,7 @@ const GridGallery = () => {
             <div className="overflow-hidden rounded-lg">
               <img
                 src={images[5]}
+                loading="lazy"
                 alt="Gallery Image 6"
                 className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
               />
@@ -71,6 +77,7 @@ const GridGallery = () => {
             <div className="overflow-hidden rounded-lg">
               <img
                 src={images[6]}
+                loading="lazy"
                 alt="Gallery Image 7"
                 className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
               />
@@ -80,6 +87,7 @@ const GridGallery = () => {
             <div className="overflow-hidden rounded-lg">
               <img
                 src={images[7]}
+                loading="lazy"
                 alt="Gallery Image 8"
                 className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
               />
@@ -87,6 +95,7 @@ const GridGallery = () => {
             <div className="overflow-hidden rounded-lg">
               <img
                 src={images[8]}
+                loading="lazy"
                 alt="Gallery Image 9"
                 className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
               />
@@ -94,6 +103,7 @@ const GridGallery = () => {
             <div className="overflow-hidden rounded-lg">
               <img
                 src={images[9]}
+                loading="lazy"
                 alt="Gallery Image 10"
                 className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
               />
