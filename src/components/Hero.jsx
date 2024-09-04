@@ -41,7 +41,7 @@ const HeroSection = () => {
             </button>
           </a>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/technovators_society"
             target="_blank"
             rel="noopener noreferrer"
           >

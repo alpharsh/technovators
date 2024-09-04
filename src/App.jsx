@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Gallery from './components/Gallery'
 import Hero from './components/Hero'
 import Sponsors from './components/Sponsers'
+import UpcomingEvents from './components/UpcomingEvents'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <Hero />
     <AboutSection />
     <Gallery />
+    <UpcomingEvents />
     <Coordinators />
     <Sponsors />
     <Faq />

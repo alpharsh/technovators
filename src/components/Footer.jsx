@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="mb-8 md:mb-0 relative md:w-1/2">
           <img src="logo.png" alt="logo" className="h-12 mb-4" />
           <p className="text-gray-400 md:text-lg text-base leading-tight">
-            Technovators Club is a vibrant community dedicated to organizing
+            Technovators Society is a vibrant community dedicated to organizing
             technical events like hackathons, talks, and workshops. Our mission
             is to foster innovation and collaboration among tech enthusiasts,
             connecting students with industry experts to enhance technical

@@ -35,7 +35,7 @@ const Coordinators = () => {
         {speakers.map((speaker, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center"
+            className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center"
           >
             <div className="w-36 h-36 mb-4">
               <img

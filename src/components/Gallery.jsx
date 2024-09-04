@@ -51,7 +51,7 @@ const Gallery = () => {
         {/* Previous Button */}
         <button
           onClick={handlePrev}
-          className="absolute left-0 z-10 p-2 bg-white rounded-full shadow-md focus:outline-none hover:bg-gray-200"
+          className="absolute left-2 z-10 p-1 md:p-2 bg-white rounded-full shadow-md focus:outline-none hover:bg-gray-200"
         >
           &#9664;
         </button>
@@ -78,7 +78,7 @@ const Gallery = () => {
         {/* Next Button */}
         <button
           onClick={handleNext}
-          className="absolute right-0 z-10 p-2 bg-white rounded-full shadow-md focus:outline-none hover:bg-gray-200"
+          className="absolute right-2 z-10 p-1 md:p-2 bg-white rounded-full shadow-md focus:outline-none hover:bg-gray-200"
         >
           &#9654;
         </button>
