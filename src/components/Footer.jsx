@@ -5,7 +5,10 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white pt-10 pb-3 md:px-8 px-5">
       <div className="mx-auto flex flex-col md:w-11/12 md:flex-row justify-between items-center">
         <div className="mb-8 md:mb-0 relative md:w-1/2">
-          <img src="logo.png" alt="logo" className="h-12 mb-4" />
+          <div className="flex items-center gap-3 mb-4">
+          <img src="logo.png" alt="logo" className="h-12" />
+          <h3 className="md:text-3xl text-2xl font-medium">Technovators</h3>
+          </div>
           <p className="text-gray-400 md:text-lg text-base leading-tight">
             Technovators Society is a vibrant community dedicated to organizing
             technical events like hackathons, talks, and workshops. Our mission

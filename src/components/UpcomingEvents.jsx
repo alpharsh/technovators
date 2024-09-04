@@ -17,7 +17,7 @@ const events = [
     location: "Coming Soon",
     description: "Coming Soon",
     image: "ai-workshop.jpg",
-    link: "/ai-workshop",
+    link: "#", // Placeholder link for "Coming Soon"
   },
   {
     title: "Tech Talk: Series",
@@ -26,7 +26,7 @@ const events = [
     location: "Coming Soon",
     description: "Coming Soon",
     image: "https://a2tech360.com/wp-content/uploads/2023/03/Web-TTalk23_a2spark360_TechTalk_199.jpg",
-    link: "/quantum-computing-talk",
+    link: "#", // Placeholder link for "Coming Soon"
   },
   {
     title: "Guest Lectures",
@@ -35,14 +35,14 @@ const events = [
     location: "Coming Soon",
     description: "Coming Soon",
     image: "https://cdn.prod.website-files.com/626a518e6507e342004ee1fe/65ad78ed1febf133512ac2e7_32-Tech-Talks_Studio-BTS-231214.jpg",
-    link: "/robotics-competition",
+    link: "#", // Placeholder link for "Coming Soon"
   },
 ];
 
 const UpcomingEvents = () => {
   return (
     <section className="py-14 bg-gray-100">
-      <h2 className="text-4xl font-bold text-center whitetext mb-10">UPCOMING EVENTS</h2>
+      <h2 className="md:text-4xl text-3xl font-bold text-center whitetext mb-10">UPCOMING EVENTS</h2>
       <div className="container md:w-3/4 mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {events.map((event, index) => (
@@ -64,14 +64,16 @@ const UpcomingEvents = () => {
                   <strong>Location:</strong> {event.location}
                 </p>
                 <p className="text-gray-600 mt-2">{event.description}</p>
-                <a
-                  href={event.link}
-                  target='_blank'
-                  rel="noreferrer"
-                  className="mt-4 inline-block bg-gradient-to-r from-purple-400 to-orange-400 text-white px-4 py-1 rounded-3xl hover:bg-blue-600 transition-all duration-500 bg-[length:100%_100%] ease-in-out hover:bg-[length:180%_180%]"
-                >
-                  Learn More
-                </a>
+                {event.link !== "#" && (
+                  <a
+                    href={event.link}
+                    target='_blank'
+                    rel="noreferrer"
+                    className="mt-4 inline-block bg-gradient-to-r from-purple-400 to-orange-400 text-white px-4 py-1 rounded-3xl hover:bg-blue-600 transition-all duration-500 bg-[length:100%_100%] ease-in-out hover:bg-[length:180%_180%]"
+                  >
+                    Learn More
+                  </a>
+                )}
               </div>
             </div>
           ))}
