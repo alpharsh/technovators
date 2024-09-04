@@ -46,7 +46,7 @@ const Coordinators = () => {
             </div>
             <h3 className="text-2xl font-semibold text-center">{speaker.name}</h3>
             <p className="text-center text-gray-600">{speaker.title}</p>
-            <p className="mt-4 text-center text-lg font-medium">{speaker.gmail}</p>
+            {/* <p className="mt-4 text-center text-lg font-medium">{speaker.gmail}</p> */}
             <div
               className={`h-1 mt-4 w-2/3 ${index % 2 === 0 ? 'bg-purple-400' : 'bg-orange-400'}`}
             ></div>
