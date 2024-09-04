@@ -19,7 +19,7 @@ const Faq = () => {
 
         {/* Sponsor Call to Action */}
         <div className="relative z-10 text-center max-w-4xl mx-auto">
-          <h2 className="text-4xl font-normal mb-6">Want to be a Collaborate?</h2>
+          <h2 className="text-4xl font-normal mb-6">Want to Collaborate?</h2>
           <a
             href="#"
             className="inline-block bg-white  text-black px-8 py-3 rounded-sm shadow-md font-bold transition-transform duration-300 hover:scale-105"

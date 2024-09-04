@@ -50,7 +50,7 @@ const UpcomingEvents = () => {
               <img
                 src={event.image}
                 alt={`${event.title} Image`}
-                className="w-full h-48 object-cover"
+                className={`w-full h-48 object-cover ${index > 0 ? 'filter blur-sm' : ''}`} // Apply blur only to images except the first one
               />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-2">{event.title}</h3>
@@ -67,6 +67,7 @@ const UpcomingEvents = () => {
                 <a
                   href={event.link}
                   target='_blank'
+                  rel="noreferrer"
                   className="mt-4 inline-block bg-gradient-to-r from-purple-400 to-orange-400 text-white px-4 py-1 rounded-3xl hover:bg-blue-600 transition-all duration-500 bg-[length:100%_100%] ease-in-out hover:bg-[length:180%_180%]"
                 >
                   Learn More
