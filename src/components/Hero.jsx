@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../index.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const HeroSection = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="radial-gradient-bg py-10 pt-1 text-white md:h-fit flex flex-col justify-center items-center">
       {/* Navbar */}
@@ -17,20 +23,27 @@ const HeroSection = () => {
       {/* Hero Content */}
       <div className="text-center md:mt-24 mt-14 relative w-11/12 md:w-3/4 mx-auto">
         <div className="flex justify-center items-center flex-col">
-          <h1 className="md:text-8xl text-5xl font-bold">
+          <h1
+            className="md:text-8xl mb-5 text-5xl font-bold"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             We are{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-orange-400">
               Technovators!
             </span>
           </h1>
-          <p className="md:mt-20 mt-10 font-medium md:text-4xl text-2xl">
-            Together we define the future
-          </p>
-          <p className="md:mt-16 mt-10 md:text-2xl text-xl font-light text-gray-300 relative  md:w-3/4 leading-tight">
-            Step into a virtual playground where creativity soars, ideas spark,
-            and innovation knows no bounds. Ready to ignite your passion and
-            make tech magic? Join us and let your brilliance shine!
-          </p>
+          <div className="mx-auto flex flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="2000">
+            <p className="md:mt-20 mt-10 font-medium md:text-4xl text-2xl">
+              Together we define the future
+            </p>
+            <p className="md:mt-16 mt-10 md:text-2xl text-xl font-light text-gray-300 relative  md:w-3/4 leading-tight">
+              Step into a virtual playground where creativity soars, ideas
+              spark, and innovation knows no bounds. Ready to ignite your
+              passion and make tech magic? Join us and let your brilliance
+              shine!
+            </p>
+          </div>
         </div>
 
         {/* Buttons */}

@@ -1,6 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Faq = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <section className="relative bg-gray-900 text-white py-16 px-8">
@@ -46,32 +51,32 @@ const Faq = () => {
           {/* Right Side: FAQ Content */}
           <div className=" flex flex-col mt-14 md:p-4 text-lg">
             <div className="flex justify-end">
-              <div className="text-black md:w-1/2 font-semibold text-center bg-white p-[2%] px-[5.5%] mb-5 border border-black rounded-[5rem] rounded-br-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
+              <div className="text-black md:w-1/2 font-semibold text-center bg-white p-[2%] px-[5.5%] mb-5 border border-black rounded-[5rem] rounded-br-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight" data-aos="fade-up">
                 Who can join the Technovators Society?
               </div>
             </div>
-            <div className="text-white md:w-3/4 text-left bg-black p-3 px-[6%] mb-5 border border-black rounded-[3rem] rounded-tl-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
+            <div className="text-white md:w-3/4 text-left bg-black p-3 px-[6%] mb-5 border border-black rounded-[3rem] rounded-tl-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight" data-aos="fade-up">
               The Technovators Society welcomes all students, professionals, and
               tech enthusiasts who are passionate about technology and
               innovation. If you're interested in tech, join us and contribute
               to our vibrant community.
             </div>
             <div className="flex justify-end">
-              <div className="text-black md:w-1/2 font-semibold text-center bg-white p-[2%] px-[5.5%] mb-5 border border-black rounded-[5rem] rounded-br-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
+              <div className="text-black md:w-1/2 font-semibold text-center bg-white p-[2%] px-[5.5%] mb-5 border border-black rounded-[5rem] rounded-br-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight" data-aos="fade-up">
                 How does Technovators Society benefit its members?
               </div>
             </div>
-            <div className="text-white md:w-3/4 text-left bg-black p-3 px-[6%] mb-5 border border-black rounded-[3rem] rounded-tl-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
+            <div className="text-white md:w-3/4 text-left bg-black p-3 px-[6%] mb-5 border border-black rounded-[3rem] rounded-tl-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight" data-aos="fade-up">
               Technovators Society members enjoy exclusive events, networking with
               industry experts, skill-building workshops, and a supportive
               community for personal and professional growth in tech.
             </div>
             <div className="flex justify-end">
-              <div className="text-black md:w-1/2 font-semibold text-center bg-white p-[2%] px-[5.5%] mb-5 border border-black rounded-[5rem] rounded-br-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
+              <div className="text-black md:w-1/2 font-semibold text-center bg-white p-[2%] px-[5.5%] mb-5 border border-black rounded-[5rem] rounded-br-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight" data-aos="fade-up">
               Is there a membership fee to join the Technovators Club?
               </div>
             </div>
-            <div className="text-white md:w-3/4 text-left bg-black p-3 px-[6%] mb-5 border border-black rounded-[3rem] rounded-tl-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
+            <div className="text-white md:w-3/4 text-left bg-black p-3 px-[6%] mb-5 border border-black rounded-[3rem] rounded-tl-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight" data-aos="fade-up">
             No, there is no membership fee to join the Technovators Society. Our events and activities are open to all who are interested in participating and contributing to the community.
             </div>
           </div>

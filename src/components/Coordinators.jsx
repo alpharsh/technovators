@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const speakers = [
   {
@@ -28,6 +30,10 @@ const speakers = [
 ];
 
 const Coordinators = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <section className="py-12 bg-gradient-to-r from-pink-100 to-purple-100">
       <h2 className="md:text-5xl text-4xl mb-8 text-center whitetext font-bold">COORDINATORS</h2>
@@ -35,7 +41,7 @@ const Coordinators = () => {
         {speakers.map((speaker, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center"
+            className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center" data-aos="flip-right"
           >
             <div className="w-36 h-36 mb-4">
               <img

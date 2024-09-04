@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const events = [
   {
@@ -25,7 +27,7 @@ const events = [
     time: "Coming Soon",
     location: "Coming Soon",
     description: "Coming Soon",
-    image: "https://a2tech360.com/wp-content/uploads/2023/03/Web-TTalk23_a2spark360_TechTalk_199.jpg",
+    image: "techtalk.jpg",
     link: "#", // Placeholder link for "Coming Soon"
   },
   {
@@ -34,19 +36,23 @@ const events = [
     time: "Coming Soon",
     location: "Coming Soon",
     description: "Coming Soon",
-    image: "https://cdn.prod.website-files.com/626a518e6507e342004ee1fe/65ad78ed1febf133512ac2e7_32-Tech-Talks_Studio-BTS-231214.jpg",
+    image: "guest.jpg",
     link: "#", // Placeholder link for "Coming Soon"
   },
 ];
 
 const UpcomingEvents = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <section className="py-14 bg-gray-100">
       <h2 className="md:text-4xl text-3xl font-bold text-center whitetext mb-10">UPCOMING EVENTS</h2>
       <div className="container md:w-3/4 mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {events.map((event, index) => (
-            <div key={index} className="bg-white shadow-lg rounded-2xl overflow-hidden">
+            <div key={index} className="bg-white shadow-lg rounded-2xl overflow-hidden" data-aos="fade-up">
               <img
                 src={event.image}
                 alt={`${event.title} Image`}
