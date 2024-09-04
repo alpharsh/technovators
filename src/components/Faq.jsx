@@ -19,7 +19,7 @@ const Faq = () => {
 
         {/* Sponsor Call to Action */}
         <div className="relative z-10 text-center max-w-4xl mx-auto">
-          <h2 className="text-4xl font-normal mb-6">Want to be a Sponsor?</h2>
+          <h2 className="text-4xl font-normal mb-6">Want to be a Collaborate?</h2>
           <a
             href="#"
             className="inline-block bg-white  text-black px-8 py-3 rounded-sm shadow-md font-bold transition-transform duration-300 hover:scale-105"
@@ -47,32 +47,32 @@ const Faq = () => {
           <div className=" flex flex-col mt-14 md:p-4 text-lg">
             <div className="flex justify-end">
               <div className="text-black md:w-1/2 font-semibold text-center bg-white p-[2%] px-[5.5%] mb-5 border border-black rounded-[5rem] rounded-br-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
-                Am I eligible for the events?
+                Who can join the Technovators Society?
               </div>
             </div>
             <div className="text-white md:w-3/4 text-left bg-black p-3 px-[6%] mb-5 border border-black rounded-[3rem] rounded-tl-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
-              As long as you are currently enrolled in an Undergraduate degree
-              program, you can participate in any event.
+              The Technovators Society welcomes all students, professionals, and
+              tech enthusiasts who are passionate about technology and
+              innovation. If you're interested in tech, join us and contribute
+              to our vibrant community.
             </div>
             <div className="flex justify-end">
               <div className="text-black md:w-1/2 font-semibold text-center bg-white p-[2%] px-[5.5%] mb-5 border border-black rounded-[5rem] rounded-br-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
-                I don&apos;t have any prior experience with the event. Should I
-                participate?
+                How does Technovators Society benefit its members?
               </div>
             </div>
             <div className="text-white md:w-3/4 text-left bg-black p-3 px-[6%] mb-5 border border-black rounded-[3rem] rounded-tl-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
-              Don&apos;t worry. Just check out our event page and hop on to our
-              discord server. We will make sure you are equipped with the
-              essential resources.
+              Technovators Society members enjoy exclusive events, networking with
+              industry experts, skill-building workshops, and a supportive
+              community for personal and professional growth in tech.
             </div>
             <div className="flex justify-end">
               <div className="text-black md:w-1/2 font-semibold text-center bg-white p-[2%] px-[5.5%] mb-5 border border-black rounded-[5rem] rounded-br-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
-                What if my doubts are not listed here?
+              Is there a membership fee to join the Technovators Club?
               </div>
             </div>
             <div className="text-white md:w-3/4 text-left bg-black p-3 px-[6%] mb-5 border border-black rounded-[3rem] rounded-tl-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight">
-              We are happy to resolve all the doubts, just email us at
-              xyz@united.ac.in.
+            No, there is no membership fee to join the Technovators Society. Our events and activities are open to all who are interested in participating and contributing to the community.
             </div>
           </div>
         </div>

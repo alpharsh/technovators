@@ -40,17 +40,16 @@ const HeroSection = () => {
               Register
             </button>
           </a>
-          <button className="md:px-7 px-4 md:py-2 py-1 rounded-full text-lg font-medium border-2 border-gray-300 hover:bg-gray-700 transition-all flex items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              className="w-6 h-6 mr-2"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 2C6.486 2 2 6.486 2 12c0 4.991 3.657 9.128 8.438 9.876v-6.99H7.898v-2.886h2.54V9.417c0-2.516 1.492-3.893 3.776-3.893 1.095 0 2.238.195 2.238.195v2.46h-1.26c-1.241 0-1.63.771-1.63 1.562v1.872h2.773l-.443 2.886h-2.33v6.99C18.343 21.128 22 16.991 22 12c0-5.514-4.486-10-10-10z" />
-            </svg>
-            Join Discord
-          </button>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="md:px-7 px-4 md:py-2 py-1 rounded-full text-lg font-medium border-2 border-gray-300 hover:bg-gray-700 transition-all flex items-center">
+              <i className="fab mr-2 fa-instagram"></i>
+              Instagram
+            </button>
+          </a>
         </div>
       </div>
     </div>

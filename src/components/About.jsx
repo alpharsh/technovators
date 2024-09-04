@@ -9,7 +9,7 @@ const AboutSection = () => {
           What is <span className="whitetext">Technovators</span> ?
         </h2>
         <p className="mt-8 md:text-[2rem] font-light text-gray-800 leading-tight">
-          Technovators Club is a dynamic community passionate about
+          Technovators Society is a dynamic community passionate about
           orchestrating technical events, including hackathons, talk series,
           conferences, guest lectures, and workshops. Our mission is to
           cultivate innovation and technical prowess among members and the wider

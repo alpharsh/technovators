@@ -4,25 +4,25 @@ const speakers = [
   {
     name: 'Abhay Kesarwani',
     title: 'President',
-    date: 'Lorem Ipsum',
+    gmail: 'abhaykesarwani123@gmail.com',
     image: 'abhay.png',
   },
   {
     name: 'Rishabh Vaish',
     title: 'Vice President',
-    date: 'Lorem Ipsum',
+    gmail: 'rishabhvaish2002@gmail.com',
     image: 'rishabh.jpg',
   },
   {
     name: 'Shashank singh',
     title: 'Marketing & Outreach Head',
-    date: 'Lorem Ipsum',
+    gmail: 'shashanksinghrajput321@gmail.com',
     image: 'shashank.png',
   },
   {
     name: 'Faraz Khan',
     title: 'Technical Lead',
-    date: 'Lorem Ipsum',
+    gmail: 'fkassassin2001@gmail.com',
     image: 'faraz.jpg',
   },
 ];
@@ -46,7 +46,7 @@ const Coordinators = () => {
             </div>
             <h3 className="text-2xl font-semibold text-center">{speaker.name}</h3>
             <p className="text-center text-gray-600">{speaker.title}</p>
-            <p className="mt-4 text-center text-lg font-medium">{speaker.date}</p>
+            <p className="mt-4 text-center text-lg font-medium">{speaker.gmail}</p>
             <div
               className={`h-1 mt-4 w-2/3 ${index % 2 === 0 ? 'bg-purple-400' : 'bg-orange-400'}`}
             ></div>
