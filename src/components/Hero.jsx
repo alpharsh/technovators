@@ -48,7 +48,7 @@ const HeroSection = () => {
 
         {/* Buttons */}
         <div className="mt-16 flex justify-center space-x-4">
-          <a href="https://whatsapp.com/channel/0029VaoXHvT05MUihnrrGn0k " target="_blank">
+          <a href="https://whatsapp.com/channel/0029VaoXHvT05MUihnrrGn0k" target="_blank">
             <button className="md:px-11 px-7 md:py-2 py-1 rounded-full text-lg text-black font-bold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
             
             <i class="fa-brands mr-2 fa-whatsapp"></i>
