@@ -73,7 +73,7 @@ const Faq = () => {
             </div>
             <div className="flex justify-end">
               <div className="text-black md:w-1/2 font-semibold text-center bg-white p-[2%] px-[5.5%] mb-5 border border-black rounded-[5rem] rounded-br-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight" data-aos="fade-up">
-              Is there a membership fee to join the Technovators Club?
+              Is there a membership fee to join the Technovators Society?
               </div>
             </div>
             <div className="text-white md:w-3/4 text-left bg-black p-3 px-[6%] mb-5 border border-black rounded-[3rem] rounded-tl-none shadow-[0.05rem_0.1rem_0.3rem_black] leading-tight" data-aos="fade-up">
