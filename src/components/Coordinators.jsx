@@ -16,16 +16,16 @@ const speakers = [
     image: 'rishabh.jpg',
   },
   {
-    name: 'Shashank singh',
-    title: 'Marketing & Outreach Head',
-    gmail: 'shashanksinghrajput321@gmail.com',
-    image: 'shashank.png',
+    name: 'Ishita Banerjee',
+    title: 'Secretary',
+    gmail: 'ishita.banerji2017@gmail.com',
+    image: 'ishita.jpg',
   },
   {
-    name: 'Faraz Khan',
-    title: 'Technical Lead',
-    gmail: 'fkassassin2001@gmail.com',
-    image: 'faraz.jpg',
+    name: 'Arham Abbas',
+    title: 'Treasurer',
+    gmail: 'abbasarham084@gmail.com',
+    image: 'arham.jpg',
   },
 ];
 

@@ -14,19 +14,19 @@ const events = [
   },
   {
     title: "Workshop",
-    date: "Coming Soon",
-    time: "Coming Soon",
-    location: "Coming Soon",
-    description: "Coming Soon",
+    date: "October 2024",
+    time: "9:00 AM - 4:00 PM",
+    location: "UCER Campus",
+    description: "Join our exclusive AI Workshop for members. Learn the latest in AI, participate in hands-on sessions, and network with industry experts. Enhance your skills and connect with peers.",
     image: "ai-workshop.jpg",
     link: "#", // Placeholder link for "Coming Soon"
   },
   {
     title: "Tech Talk: Series",
-    date: "Coming Soon",
-    time: "Coming Soon",
-    location: "Coming Soon",
-    description: "Coming Soon",
+    date: "November 2024",
+    time: "9:00 AM - 4:00 PM",
+    location: "UCER Campus",
+    description: "Join our exclusive Talk Series by industry experts on cutting-edge technologies, trends, and professional development. Open to members only, this series offers valuable insights and career advancement opportunities.",
     image: "techtalk.jpg",
     link: "#", // Placeholder link for "Coming Soon"
   },
@@ -56,7 +56,7 @@ const UpcomingEvents = () => {
               <img
                 src={event.image}
                 alt={`${event.title} Image`}
-                className={`w-full h-48 object-cover ${index > 0 ? 'filter blur-sm' : ''}`} // Apply blur only to images except the first one
+                className={`w-full h-48 object-cover ${index > 2 ? 'filter blur-sm' : ''}`} // Apply blur only to images except the first one
               />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-2">{event.title}</h3>
