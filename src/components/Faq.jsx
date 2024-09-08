@@ -41,12 +41,12 @@ const Faq = () => {
             <p className="text-2xl mb-6">
               Feeling Overwhelmed? Reach out to us.
             </p>
-            <a
+{/*             <a
               href="#"
               className="inline-block bg-white text-black px-6 py-3 rounded-md shadow-md font-bold transition-transform duration-300 hover:scale-105 btnhl"
             >
               Contact Us <span className="inline-block ml-2">↗</span>
-            </a>
+            </a> */}
           </div>
           {/* Right Side: FAQ Content */}
           <div className=" flex flex-col mt-14 md:p-4 text-lg">
