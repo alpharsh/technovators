@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+eimport React, {useEffect} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -39,7 +39,7 @@ const Faq = () => {
           <div className="md:w-1/2 mb-3 md:mb-0 text-center md:text-start">
             <h2 className="text-6xl orangetext font-bold mb-4">FAQ</h2>
             <p className="text-2xl mb-6">
-              Feeling Overwhelmed? Reach out to us.
+              Feeling Overwhelmed?
             </p>
 {/*             <a
               href="#"
