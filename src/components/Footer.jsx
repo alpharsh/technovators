@@ -29,10 +29,10 @@ const Footer = () => {
           </p>
           <div className="flex mt-4 justify-start">
             <a
-              href="https://www.linkedin.com"
+              href="https://whatsapp.com/channel/0029VaoXHvT05MUihnrrGn0k"
               className="text-gray-400 md:text-2xl text-xl hover:text-white mr-4 bg-gray-300 bg-opacity-20 rounded-full md:p-2 p-1 md:px-[0.90rem] px-[0.65rem]"
             >
-              <i className="fab fa-linkedin-in"></i>
+              <i className="fa-brands fa-whatsapp"></i>
             </a>
             <a
               href="https://www.instagram.com/technovators_society/"
