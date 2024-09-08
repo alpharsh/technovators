@@ -26,7 +26,7 @@ const Faq = () => {
         <div className="relative z-10 text-center max-w-4xl mx-auto">
           <h2 className="text-4xl font-normal mb-6">Want to Collaborate?</h2>
           <a
-            href="#"
+            href="mailto:technovators2024@gmail.com"
             className="inline-block bg-white  text-black px-8 py-3 rounded-sm shadow-md font-bold transition-transform duration-300 hover:scale-105"
           >
             Apply <span className="inline-block ml-2">↗</span>

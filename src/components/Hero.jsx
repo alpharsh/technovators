@@ -47,7 +47,8 @@ const HeroSection = () => {
         </div>
 
         {/* Buttons */}
-        <div className="mt-16 flex justify-center space-x-4">
+        <div className="mt-16 flex justify-center flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
+          
           <a href="https://whatsapp.com/channel/0029VaoXHvT05MUihnrrGn0k" target="_blank">
             <button className="md:px-11 px-7 md:py-2 py-1 rounded-full text-lg text-black font-bold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
             

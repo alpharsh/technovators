@@ -40,6 +40,12 @@ const Footer = () => {
             >
               <i className="fab fa-instagram"></i>
             </a>
+            <a
+              href="https://t.me/technovators2024"
+              className="text-gray-400 md:text-2xl text-xl ml-4 hover:text-white bg-gray-300 bg-opacity-20 rounded-full md:p-2 p-1 md:px-[0.90rem] px-[0.65rem]"
+            >
+              <i className="fab fa-telegram"></i>
+            </a>
           </div>
         </div>
       </div>
