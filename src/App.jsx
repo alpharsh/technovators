@@ -1,6 +1,6 @@
 import './App.css'
 import AboutSection from './components/About'
-// import Coordinators from './components/Coordinators'
+import Coordinators from './components/Coordinators'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
 import Gallery from './components/Gallery'
@@ -18,7 +18,7 @@ function App() {
     <Gallery />
     <UpcomingEvents />
     <PastEvents />
-    {/* <Coordinators /> */}
+    <Coordinators />
     <Sponsors />
     <Faq />
     <Footer />
