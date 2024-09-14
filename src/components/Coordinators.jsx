@@ -17,7 +17,7 @@ const founders = [
 ];
 
 const coreMembers = [
-  { name: "Abhay Kesarwani", title: "President", image: "team/abhay.png" },
+  { name: "Abhay Kes", title: "President", image: "team/abhay.png" },
   { name: "Rishabh Vaish", title: "Vice President", image: "team/rishabh.jpg" },
   { name: "Ishita Banerjee", title: "Secretary", image: "team/ishita.jpg" },
   { name: "Arham Abbas", title: "Treasurer", image: "team/arham.jpg" },
@@ -83,7 +83,7 @@ const Coordinators = () => {
                 alt={mentor.name}
                 className="w-36 h-36 object-cover rounded-full mb-4 border-4 border-purple-200"
               />
-              <h4 className="text-xl font-semibold text-center">
+              <h4 className="md:text-xl font-semibold text-center">
                 {mentor.name}
               </h4>
             </div>
@@ -92,7 +92,7 @@ const Coordinators = () => {
       </div>
 
       {/* Founders Section */}
-      <div className="container md:w-3/4 mx-auto mb-20">
+      <div className="container w-11/12 md:w-3/4 mx-auto mb-20">
         <h3 className="text-3xl md:text-4xl text-center font-semibold mb-6 whitetext">
           Founders
         </h3>
@@ -108,7 +108,7 @@ const Coordinators = () => {
                 alt={founder.name}
                 className="w-36 h-36 object-cover rounded-full mb-4 border-4 border-purple-200"
               />
-              <h4 className="text-xl font-semibold text-center">
+              <h4 className="md:text-xl font-semibold text-center">
                 {founder.name}
               </h4>
             </div>
@@ -117,7 +117,7 @@ const Coordinators = () => {
       </div>
 
       {/* Core Members Section */}
-      <div className="container md:w-3/4 mx-auto mb-20">
+      <div className="container w-11/12 md:w-3/4 mx-auto mb-20">
         <h3 className="text-3xl md:text-4xl text-center font-semibold mb-6 whitetext">Core Members</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
           {coreMembers.map((member, index) => (
@@ -131,7 +131,7 @@ const Coordinators = () => {
                 alt={member.name}
                 className="w-36 h-36 object-cover rounded-full mb-4 border-4 border-purple-200"
               />
-              <h4 className="text-xl font-semibold text-center">{member.name}</h4>
+              <h4 className="md:text-xl leading-tight font-semibold text-center">{member.name}</h4>
               <p className="text-gray-600 text-center">{member.title}</p>
             </div>
           ))}
@@ -139,7 +139,7 @@ const Coordinators = () => {
       </div>
 
       {/* Members Section */}
-      <div className="container md:w-3/4 mx-auto mb-14">
+      <div className="container w-11/12 md:w-3/4 mx-auto mb-14">
         <h3 className="text-3xl md:text-4xl text-center font-semibold mb-6 whitetext">
           Members
         </h3>
@@ -155,7 +155,7 @@ const Coordinators = () => {
                 alt={member.name}
                 className="w-36 h-36 object-cover rounded-full mb-4 border-4 border-purple-200"
               />
-              <h4 className="text-xl font-semibold text-center">
+              <h4 className="md:text-xl font-semibold text-center">
                 {member.name}
               </h4>
             </div>
