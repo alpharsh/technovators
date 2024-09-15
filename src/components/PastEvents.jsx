@@ -8,7 +8,7 @@ const events = [
     date: "13-14 October, 2023",
     time: "9:00 AM - 7:00 PM",
     location: "UCER Campus",
-    description: "Uhack 2.0 took the hackathon experience to the next level by expanding its scope to a city-level event, attracting talented individuals across the city with fresh perspectives and ideas. This edition introduced new challenges, themes, and prizes, facilitating partnerships with local organizations, startups, and industries, and providing participants with real-world problems to solve and potential opportunities for collaboration.",
+    description: "Uhack 2.0 expanded to a city-level event, attracting talented individuals with fresh ideas. It introduced new challenges, themes, and prizes, and facilitated partnerships with local organizations, providing real-world problems and collaboration opportunities.",
     image: "uhack2.jpeg",
     link: "https://united.ac.in/uhack/",
   },
@@ -17,7 +17,7 @@ const events = [
     date: "04-05 October, 2022",
     time: "9:00 AM - 7:00 PM",
     location: "UCER Campus",
-    description: "Uhack marked the beginning of a new era in hackathons, organized by the Technovator Society of United College of Engineering and Research. As a college-level event, it brought together talented students from within the institution to showcase their innovative ideas and problem-solving skills, providing a platform for collaboration, learning, and transforming ideas into reality.",
+    description: "Uhack, organized by the Technovator Society of United College of Engineering and Research, was a college-level event that showcased students' innovative ideas and problem-solving skills, fostering collaboration and learning.",
     image: "uhack1.jpg",
     link: "https://united.ac.in/uhack/",
   }
