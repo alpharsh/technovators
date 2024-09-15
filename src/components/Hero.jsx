@@ -51,33 +51,39 @@ const HeroSection = () => {
         </div>
 
         {/* Buttons */}
-        <div className="mt-16 flex justify-center flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
-          <a
-            href="https://whatsapp.com/channel/0029VaoXHvT05MUihnrrGn0k"
-            target="_blank"
-          >
-            <button className="md:px-11 px-7 md:py-2 py-1 rounded-full text-lg text-black font-bold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
-              <i class="fa-brands mr-2 fa-whatsapp"></i>
-              Whatsapp
-            </button>
-          </a>
+        <div className="mt-16 flex justify-center items-end  flex-row space-x-3 space-y-3 ">
+          <div>
+            <a
+              href="https://whatsapp.com/channel/0029VaoXHvT05MUihnrrGn0k"
+              target="_blank"
+            >
+              <button className="flex items-center justify-center md:px-7 px-2 md:py-2 py-1 rounded-full text-sm md:text-lg text-black font-semibold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
+                <i class="fa-brands mr-2 fa-whatsapp"></i>
+                <div>WhatsApp</div>
+              </button>
+            </a>
+          </div>
 
-          <a
-            href="https://www.instagram.com/technovators_society/"
-            target="_blank"
-          >
-            <button className="md:px-11 px-7 md:py-2 py-1 rounded-full text-lg text-black font-bold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
-              <i className="fab mr-2 fa-instagram"></i>
-              Instagram
-            </button>
-          </a>
+          <div>
+            <a
+              href="https://www.instagram.com/technovators_society/"
+              target="_blank"
+            >
+              <button className="flex items-center justify-center md:px-7 px-2 md:py-2 py-1 rounded-full text-sm md:text-lg text-black font-semibold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
+                <i className="fab mr-2 fa-instagram"></i>
+                <div>Instagram</div>
+              </button>
+            </a>
+          </div>
 
-          <a href="https://t.me/technovators2024" target="_blank">
-            <button className="md:px-11 px-7 md:py-2 py-1 rounded-full text-lg text-black font-bold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
-              <i class="fa-brands mr-2 fa-telegram"></i>
-              Telegram
-            </button>
-          </a>
+          <div>
+            <a href="https://t.me/technovators2024" target="_blank">
+              <button className="flex items-center justify-center md:px-7 px-3 md:py-2 py-1 rounded-full text-sm md:text-lg text-black font-semibold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
+                <i class="fa-brands mr-2 fa-telegram"></i>
+                <div>Telegram</div>
+              </button>
+            </a>
+          </div>
 
           {/* <a
             href="https://www.instagram.com/technovators_society"

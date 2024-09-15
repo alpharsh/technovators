@@ -37,18 +37,28 @@ const coreMembers = [
     title: "Event Coordinator",
     image: "team/amaan.jpg",
   },
-  { name: "Ishita Banerjee", title: "Secretary", image: "team/ishita.jpg" },
   { name: "Mohammad Bilal", title: "Technical Head", image: "team/bilal.jpg" },
   { name: "Shreya Jain", title: "Technical Head", image: "team/shreya.jpg" },
+  { name: "Ishita Banerjee", title: "Secretary", image: "team/ishita.jpg" },
+  {
+    name: "Harsh Tripathi",
+    title: "Technical Team Member",
+    image: "team/harsh.jpg",
+  },
+  {
+    name: "Sarthak Srivastava",
+    title: "Technical Team Member",
+    image: "team/sarthak.jpg",
+  },
+  {
+    name: "Anunai Gopal",
+    title: "Technical Team Member",
+    image: "team/anunai.jpg",
+  },
   {
     name: "Shruti Srivastava",
     title: "Graphic Designer Head",
     image: "team/shruti.jpg",
-  },
-  {
-    name: "Harsh Tripathi",
-    title: "Graphic Design Member",
-    image: "team/harsh.jpg",
   },
   {
     name: "Kaustubh Mani",
@@ -64,16 +74,6 @@ const coreMembers = [
     name: "Jahanvi Kesarwani",
     title: "Social Media Head",
     image: "team/jahanvi.jpg",
-  },
-  {
-    name: "Sarthak Srivastava",
-    title: "Technical Team Member",
-    image: "team/sarthak.jpg",
-  },
-  {
-    name: "Anunai Gopal",
-    title: "Technical Team Member",
-    image: "team/anunai.jpg",
   },
 ];
 
