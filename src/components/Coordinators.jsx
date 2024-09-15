@@ -21,36 +21,60 @@ const coreMembers = [
   { name: "Rishabh Vaish", title: "Vice President", image: "team/rishabh.jpg" },
   {
     name: "Shashank Singh",
-    title: "Marketing and Outreach",
+    title: "Marketing & Outreach Head",
     image: "team/shashank.png",
   },
   { name: "Arham Abbas", title: "Treasurer", image: "team/arham.jpg" },
   { name: "Faraz Khan", title: "Technical Lead", image: "team/faraz.jpg" },
+  { name: "Ashita Madan", title: "Technical Lead", image: "team/ashita.jpg" },
   {
     name: "Rituraj sahu",
     title: "Event Coordinator",
     image: "team/rituraj.jpg",
   },
+  {
+    name: "Amaan Ullah",
+    title: "Event Coordinator",
+    image: "team/amaan.jpg",
+  },
   { name: "Ishita Banerjee", title: "Secretary", image: "team/ishita.jpg" },
   { name: "Mohammad Bilal", title: "Technical Head", image: "team/bilal.jpg" },
   { name: "Shreya Jain", title: "Technical Head", image: "team/shreya.jpg" },
-  { name: "Ashita Madan", title: "Technical Lead", image: "team/ashita.jpg" },
-  {
-    name: "Amaan Ullah",
-    title: "Discipline Incharge",
-    image: "team/amaan.jpg",
-  },
   {
     name: "Shruti Srivastava",
     title: "Graphic Designer Head",
     image: "team/shruti.jpg",
   },
-  { name: "Harsh Tripathi", title: "Graphic Design Member", image: "team/harsh.jpg" },
-  { name: "Kaustubh Mani", title: "Graphic Design Member", image: "team/kaustubh.jpg" },
-  { name: "Ishan Srivastava", title: "Social Media Head", image: "team/ishan.jpg" },
-  { name: "Jahanvi Kesarwani", title: "Social Media Head", image: "team/jahanvi.jpg" },
-  { name: "Sarthak Srivastava", title: "Technical Team Member", image: "team/sarthak.jpg" },
-  { name: "Anunai Gopal", title: "Technical Team Member", image: "team/anunai.jpg" },
+  {
+    name: "Harsh Tripathi",
+    title: "Graphic Design Member",
+    image: "team/harsh.jpg",
+  },
+  {
+    name: "Kaustubh Mani",
+    title: "Graphic Design Member",
+    image: "team/kaustubh.jpg",
+  },
+  {
+    name: "Ishan Srivastava",
+    title: "Social Media Head",
+    image: "team/ishan.jpg",
+  },
+  {
+    name: "Jahanvi Kesarwani",
+    title: "Social Media Head",
+    image: "team/jahanvi.jpg",
+  },
+  {
+    name: "Sarthak Srivastava",
+    title: "Technical Team Member",
+    image: "team/sarthak.jpg",
+  },
+  {
+    name: "Anunai Gopal",
+    title: "Technical Team Member",
+    image: "team/anunai.jpg",
+  },
 ];
 
 // const members = [
@@ -142,7 +166,9 @@ const Coordinators = () => {
               <h4 className="md:text-xl leading-tight font-semibold text-center">
                 {member.name}
               </h4>
-              <p className="text-gray-600 text-center leading-tight">{member.title}</p>
+              <p className="text-gray-600 text-center leading-tight">
+                {member.title}
+              </p>
             </div>
           ))}
         </div>
