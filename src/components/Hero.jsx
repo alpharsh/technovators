@@ -33,7 +33,11 @@ const HeroSection = () => {
               Technovators!
             </span>
           </h1>
-          <div className="mx-auto flex flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="2000">
+          <div
+            className="mx-auto flex flex-col justify-center items-center"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
             <p className="md:mt-20 mt-10 font-medium md:text-4xl text-2xl">
               Together we define the future
             </p>
@@ -48,31 +52,32 @@ const HeroSection = () => {
 
         {/* Buttons */}
         <div className="mt-16 flex justify-center flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
-          
-          <a href="https://whatsapp.com/channel/0029VaoXHvT05MUihnrrGn0k" target="_blank">
+          <a
+            href="https://whatsapp.com/channel/0029VaoXHvT05MUihnrrGn0k"
+            target="_blank"
+          >
             <button className="md:px-11 px-7 md:py-2 py-1 rounded-full text-lg text-black font-bold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
-            
-            <i class="fa-brands mr-2 fa-whatsapp"></i>
-            
+              <i class="fa-brands mr-2 fa-whatsapp"></i>
               Whatsapp
             </button>
           </a>
 
-          <a href="https://www.instagram.com/technovators_society/" target="_blank">
+          <a
+            href="https://www.instagram.com/technovators_society/"
+            target="_blank"
+          >
             <button className="md:px-11 px-7 md:py-2 py-1 rounded-full text-lg text-black font-bold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
-            <i className="fab mr-2 fa-instagram"></i>
-            
+              <i className="fab mr-2 fa-instagram"></i>
               Instagram
             </button>
           </a>
 
           <a href="https://t.me/technovators2024" target="_blank">
             <button className="md:px-11 px-7 md:py-2 py-1 rounded-full text-lg text-black font-bold bg-gradient-to-r from-orange-400 to-purple-400 hover:from-orange-500 hover:to-purple-500 transition-all">
-            <i class="fa-brands mr-2 fa-telegram"></i>
+              <i class="fa-brands mr-2 fa-telegram"></i>
               Telegram
             </button>
           </a>
-    
 
           {/* <a
             href="https://www.instagram.com/technovators_society"

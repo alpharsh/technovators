@@ -17,43 +17,49 @@ const founders = [
 ];
 
 const coreMembers = [
-  { name: "Abhay Kes", title: "President", image: "team/abhay.png" },
+  { name: "Abhay Kesarwani", title: "President", image: "team/abhay.png" },
   { name: "Rishabh Vaish", title: "Vice President", image: "team/rishabh.jpg" },
-  { name: "Ishita Banerjee", title: "Secretary", image: "team/ishita.jpg" },
-  { name: "Arham Abbas", title: "Treasurer", image: "team/arham.jpg" },
   {
     name: "Shashank Singh",
     title: "Marketing and Outreach",
     image: "team/shashank.png",
   },
+  { name: "Arham Abbas", title: "Treasurer", image: "team/arham.jpg" },
+  { name: "Faraz Khan", title: "Technical Lead", image: "team/faraz.jpg" },
   {
     name: "Rituraj sahu",
     title: "Event Coordinator",
     image: "team/rituraj.jpg",
   },
+  { name: "Ishita Banerjee", title: "Secretary", image: "team/ishita.jpg" },
   { name: "Mohammad Bilal", title: "Technical Head", image: "team/bilal.jpg" },
   { name: "Shreya Jain", title: "Technical Head", image: "team/shreya.jpg" },
-  { name: "Faraz Khan", title: "Technical Lead", image: "team/faraz.jpg" },
   { name: "Ashita Madan", title: "Technical Lead", image: "team/ashita.jpg" },
+  {
+    name: "Amaan Ullah",
+    title: "Discipline Incharge",
+    image: "team/amaan.jpg",
+  },
   {
     name: "Shruti Srivastava",
     title: "Graphic Designer Head",
     image: "team/shruti.jpg",
   },
-  {
-    name: "Amaan Ullah Ansari",
-    title: "Discipline Incharge",
-    image: "team/amaan.jpg",
-  },
+  { name: "Harsh Tripathi", title: "Graphic Design Member", image: "team/harsh.jpg" },
+  { name: "Kaustubh Mani", title: "Graphic Design Member", image: "team/kaustubh.jpg" },
+  { name: "Ishan Srivastava", title: "Social Media Head", image: "team/ishan.jpg" },
+  { name: "Jahanvi Kesarwani", title: "Social Media Head", image: "team/jahanvi.jpg" },
+  { name: "Sarthak Srivastava", title: "Technical Team Member", image: "team/sarthak.jpg" },
+  { name: "Anunai Gopal", title: "Technical Team Member", image: "team/anunai.jpg" },
 ];
 
-const members = [
-  { name: "Harsh Tripathi", image: "team/harsh.jpg" },
-  { name: "Kaustubh Mani", image: "team/kaustubh.jpg" },
-  { name: "Ishan Srivastava", image: "team/ishan.jpg" },
-  { name: "Jahanvi Kesarwani", image: "team/jahanvi.jpg" },
-  { name: "Sarthak Srivastava", image: "team/sarthak.jpg" },
-];
+// const members = [
+//   { name: "Harsh Tripathi", image: "team/harsh.jpg" },
+//   { name: "Kaustubh Mani", image: "team/kaustubh.jpg" },
+//   { name: "Ishan Srivastava", image: "team/ishan.jpg" },
+//   { name: "Jahanvi Kesarwani", image: "team/jahanvi.jpg" },
+//   { name: "Sarthak Srivastava", image: "team/sarthak.jpg" },
+// ];
 
 const Coordinators = () => {
   useEffect(() => {
@@ -61,17 +67,17 @@ const Coordinators = () => {
   }, []);
 
   return (
-    <section className="py-12 bg-gradient-to-r from-pink-100 to-purple-100">
-      <h2 className="md:text-5xl text-4xl mb-14 text-center font-bold whitetext">
+    <section className="py-12 bg-[#372747]">
+      <h2 className="md:text-5xl text-4xl mb-14 text-center font-bold darktext">
         OUR TEAM
       </h2>
 
       {/* Mentors Section */}
       <div className="container w-3/4 mx-auto mb-16">
-        <h3 className="text-3xl md:text-4xl text-center font-semibold mb-6 whitetext">
-          Mentors
+        <h3 className="text-3xl md:text-4xl text-center font-semibold mb-6 darktext">
+          MENTORS
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 md:gap-8">
           {mentors.map((mentor, index) => (
             <div
               key={index}
@@ -93,14 +99,14 @@ const Coordinators = () => {
 
       {/* Founders Section */}
       <div className="container w-11/12 md:w-3/4 mx-auto mb-20">
-        <h3 className="text-3xl md:text-4xl text-center font-semibold mb-6 whitetext">
-          Founders
+        <h3 className="text-3xl md:text-4xl text-center font-semibold mb-6 darktext">
+          FOUNDERS
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
           {founders.map((founder, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center"
+              className="bg-white p-2 md:p-6 rounded-2xl shadow-lg flex flex-col items-center"
               data-aos="zoom-in"
             >
               <img
@@ -118,12 +124,14 @@ const Coordinators = () => {
 
       {/* Core Members Section */}
       <div className="container w-11/12 md:w-3/4 mx-auto mb-20">
-        <h3 className="text-3xl md:text-4xl text-center font-semibold mb-6 whitetext">Core Members</h3>
+        <h3 className="text-3xl md:text-4xl text-center font-semibold mb-6 darktext">
+          CORE MEMBERS
+        </h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
           {coreMembers.map((member, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center"
+              className="bg-white p-2 md:p-6 rounded-2xl shadow-lg flex flex-col items-center"
               data-aos="fade-up"
             >
               <img
@@ -131,16 +139,18 @@ const Coordinators = () => {
                 alt={member.name}
                 className="w-36 h-36 object-cover rounded-full mb-4 border-4 border-purple-200"
               />
-              <h4 className="md:text-xl leading-tight font-semibold text-center">{member.name}</h4>
-              <p className="text-gray-600 text-center">{member.title}</p>
+              <h4 className="md:text-xl leading-tight font-semibold text-center">
+                {member.name}
+              </h4>
+              <p className="text-gray-600 text-center leading-tight">{member.title}</p>
             </div>
           ))}
         </div>
       </div>
 
       {/* Members Section */}
-      <div className="container w-11/12 md:w-3/4 mx-auto mb-14">
-        <h3 className="text-3xl md:text-4xl text-center font-semibold mb-6 whitetext">
+      {/* <div className="container w-11/12 md:w-3/4 mx-auto mb-14">
+        <h3 className="text-3xl md:text-4xl text-center font-semibold mb-6 darktext">
           Members
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
@@ -161,7 +171,7 @@ const Coordinators = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

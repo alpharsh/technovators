@@ -55,6 +55,12 @@
         1.5px 1.5px 0 #000;
 }
 
+.darktext {
+    color: #372747;
+    text-shadow: -1.5px -1.5px 0 #ffffff, 1.5px -1.5px 0 #ffffff, -1.5px 1.5px 0 #ffffff,
+        1.5px 1.5px 0 #ffffff;
+}
+
 .orangetext{
   color: rgba(255, 200, 151,1);
     text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
