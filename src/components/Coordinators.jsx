@@ -66,6 +66,11 @@ const coreMembers = [
     image: "team/kaustubh.jpg",
   },
   {
+    name: "Harshit Srivasatava",
+    title: "Graphic Design Member",
+    image: "team/harshit.png",
+  },
+  {
     name: "Ishan Srivastava",
     title: "Social Media Head",
     image: "team/ishan.jpg",
