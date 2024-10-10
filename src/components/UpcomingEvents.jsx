@@ -4,21 +4,11 @@ import "aos/dist/aos.css";
 
 const events = [
   {
-    title: "Webinar: Freshman Induction by Coding Ninjas",
-    date: "29th September, 2024",
-    time: "11:00 AM - 12:00 PM",
-    location: "Online",
-    description: "Join us for an online session tailored for incoming freshmen eager to start their coding journey! This interactive webinar will cover essential skills and resources for success in programming.Led by Coding Ninjas instructors, you'll gain valuable insights into the tech landscape and career opportunities. Connect with peers, ask questions, and enhance your coding skills for a bright future in tech!",
-    image: "coding_ninjas_webinar.jpg",
-    // image: "tmp2.png",
-    link: "https://tinyurl.com/4xm3f9z7",
-  },
-  {
     title: "Tech Talks: A Journey through DEVOPS",
     date: "06 October, 2024",
     time: "4:00 PM - 5:00 PM (Tentative)",
     location: "Online",
-    description: "Join us for an online session on October 6, 2024, featuring Prateek Singh from Fountane Inc. This event will delve into the principles and practices of DevOps, covering key concepts like continuous integration and deployment.Gain insights from industry experts on best practices and tools that enhance productivity in software development. This is a great opportunity to connect with peers and expand your understanding of DevOps in today's tech landscape!",
+    description: "Join us on October 6, 2024, for an online session with Prateek Singh from Fountane Inc. Explore DevOps principles, including continuous integration and deployment. Learn best practices and tools from industry experts to boost productivity in software development. Connect with peers and deepen your DevOps knowledge!",
     image: "techtalk.jpg",
     // link: "https://united.ac.in/uhack/",
   },
@@ -31,15 +21,15 @@ const events = [
     image: "hackathon.jpg",
     link: "https://united.ac.in/uhack/",
   },
-  // {
-  //   title: "Workshop",
-  //   date: "October 2024",
-  //   time: "9:00 AM - 4:00 PM",
-  //   location: "UCER Campus",
-  //   description: "Join our exclusive AI Workshop for members. Learn the latest in AI, participate in hands-on sessions, and network with industry experts. Enhance your skills and connect with peers.",
-  //   image: "ai-workshop.jpg",
-  //   link: "#", // Placeholder link for "Coming Soon"
-  // },
+  {
+    title: "Workshop",
+    date: "Coming Soon",
+    time: "9:00 AM - 4:00 PM",
+    location: "UCER Campus",
+    description: "Join our exclusive AI Workshop for members. Learn the latest in AI, participate in hands-on sessions, and network with industry experts. Enhance your skills and connect with peers.",
+    image: "ai-workshop.jpg",
+    link: "#", // Placeholder link for "Coming Soon"
+  },
   // {
   //   title: "Tech Talk: Series",
   //   date: "November 2024",
@@ -75,7 +65,7 @@ const UpcomingEvents = () => {
               <img
                 src={event.image}
                 alt={`${event.title} Image`}
-                className={`w-full h-48 object-cover ${index > 2 ? 'filter blur-sm' : ''}`} // Apply blur only to images except the first one
+                className={`w-full h-48 object-cover ${index > 1 ? 'filter blur-sm' : ''}`} // Apply blur only to images except the given no. one
               />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-2">{event.title}</h3>

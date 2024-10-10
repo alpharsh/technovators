@@ -4,6 +4,16 @@ import "aos/dist/aos.css";
 
 const events = [
   {
+    title: "Webinar: Freshman Induction by Coding Ninjas",
+    date: "29th September, 2024",
+    time: "11:00 AM - 12:00 PM",
+    location: "Online",
+    description: "Join our online session for incoming freshmen to kickstart your coding journey! This interactive webinar covers essential programming skills and resources. Led by Coding Ninjas instructors, you'll gain insights into the tech landscape and career opportunities. Connect with peers, ask questions, and enhance your coding skills for a bright future in tech!",
+    image: "coding_ninjas_webinar.jpg",
+    // image: "tmp2.png",
+    link: "https://tinyurl.com/4xm3f9z7",
+  },
+  {
     title: "Uhack 2.0 | Hackathon",
     date: "13-14 October, 2023",
     time: "9:00 AM - 7:00 PM",
