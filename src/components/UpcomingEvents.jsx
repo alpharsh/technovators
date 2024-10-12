@@ -4,21 +4,21 @@ import "aos/dist/aos.css";
 
 const events = [
   {
-    title: "Tech Talks: A Journey through DEVOPS",
-    date: "06 October, 2024",
-    time: "4:00 PM - 5:00 PM (Tentative)",
-    location: "Online",
-    description: "Join us on October 6, 2024, for an online session with Prateek Singh from Fountane Inc. Explore DevOps principles, including continuous integration and deployment. Learn best practices and tools from industry experts to boost productivity in software development. Connect with peers and deepen your DevOps knowledge!",
-    image: "techtalk.jpg",
-    link: "#",
-  },
-  {
     title: "Uhack 3.0 | Hackathon",
     date: "22-23 October, 2024",
     time: "9:00 AM - 7:00 PM",
     location: "UCER Campus",
     description: "Embark on a thrilling two-day software and hardware development Hackathon, where participants create innovative applications inspired by given themes within a defined time frame.",
     image: "hackathon.jpg",
+    link: "#",
+  },
+  {
+    title: "Tech Talks: A Journey through DEVOPS",
+    date: "Coming Soon",
+    time: "Coming Soon",
+    location: "Online",
+    description: "Join us for an online session with Prateek Singh from Fountane Inc. Explore DevOps principles, including continuous integration and deployment. Learn best practices and tools from industry experts to boost productivity in software development. Connect with peers and deepen your DevOps knowledge!",
+    image: "techtalk.jpg",
     link: "#",
   },
   {
