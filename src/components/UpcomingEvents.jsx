@@ -10,7 +10,7 @@ const events = [
     location: "Online",
     description: "Join us on October 6, 2024, for an online session with Prateek Singh from Fountane Inc. Explore DevOps principles, including continuous integration and deployment. Learn best practices and tools from industry experts to boost productivity in software development. Connect with peers and deepen your DevOps knowledge!",
     image: "techtalk.jpg",
-    // link: "https://united.ac.in/uhack/",
+    link: "#",
   },
   {
     title: "Uhack 3.0 | Hackathon",
@@ -19,7 +19,7 @@ const events = [
     location: "UCER Campus",
     description: "Embark on a thrilling two-day software and hardware development Hackathon, where participants create innovative applications inspired by given themes within a defined time frame.",
     image: "hackathon.jpg",
-    link: "https://united.ac.in/uhack/",
+    link: "#",
   },
   {
     title: "Workshop",
