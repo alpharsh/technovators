@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 
 const images = [
+  "pics/INC-8449.jpg",
+  "pics/INC-7458.jpg",
+  "pics/INC-7727.jpg",
   "pics/img1.jpg",
   "pics/img2.jpg",
   "pics/img3.jpg",
@@ -21,7 +24,7 @@ const Gallery = () => {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000); // Change image every 3 seconds
+    }, 4000); // Change image every 4 seconds
 
     return () => clearInterval(slideInterval); // Clear interval on component unmount
   }, []);
@@ -51,12 +54,12 @@ const Gallery = () => {
         {/* Previous Button */}
         <button
           onClick={handlePrev}
-          className="absolute left-2 z-10 p-1 md:p-2 bg-white rounded-full shadow-md focus:outline-none hover:bg-gray-200"
+          className="absolute left-2 z-10 p-1 md:p-2 bg-white/60 rounded-full shadow-md focus:outline-none hover:bg-gray-200"
         >
           &#9664;
         </button>
 
-        <div className="overflow-hidden w-3/4 rounded-lg">
+        <div className="overflow-hidden w-full md:w-4/5 md:rounded-2xl">
           <div
             className="flex transition-transform duration-1000 ease-in-out"
             style={{
@@ -68,7 +71,7 @@ const Gallery = () => {
                 <img
                   src={image}
                   alt={`Slide ${index}`}
-                  className="w-full h-72 md:h-[550px] object-cover rounded-lg"
+                  className="w-full h-72 md:h-[550px] object-cover"
                 />
               </div>
             ))}
@@ -78,7 +81,7 @@ const Gallery = () => {
         {/* Next Button */}
         <button
           onClick={handleNext}
-          className="absolute right-2 z-10 p-1 md:p-2 bg-white rounded-full shadow-md focus:outline-none hover:bg-gray-200"
+          className="absolute right-2 z-10 p-1 md:p-2 bg-white/60 rounded-full shadow-md focus:outline-none hover:bg-gray-200"
         >
           &#9654;
         </button>

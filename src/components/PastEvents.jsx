@@ -4,11 +4,20 @@ import "aos/dist/aos.css";
 
 const events = [
   {
+    title: "Uhack 3.0 | Hackathon",
+    date: "22-23 October, 2024",
+    time: "9:00 AM - 7:00 PM",
+    location: "UCER Campus",
+    description: "Embark on a thrilling two-day software and hardware development Hackathon, where participants create innovative applications inspired by given themes within a defined time frame.",
+    image: "hackathon.jpg",
+    link: "#",
+  },
+  {
     title: "Webinar: Freshman Induction by Coding Ninjas",
     date: "29th September, 2024",
     time: "11:00 AM - 12:00 PM",
     location: "Online",
-    description: "Join our online session for incoming freshmen to kickstart your coding journey! This interactive webinar covers essential programming skills and resources. Led by Coding Ninjas instructors, you'll gain insights into the tech landscape and career opportunities. Connect with peers, ask questions, and enhance your coding skills for a bright future in tech!",
+    description: "Join our online session for freshmen to kickstart your coding journey! This webinar covers essential programming skills and resources. Led by Coding Ninjas instructors, you'll gain insights into the tech landscape and career opportunities.",
     image: "coding_ninjas_webinar.jpg",
     // image: "tmp2.png",
     link: "https://tinyurl.com/4xm3f9z7",

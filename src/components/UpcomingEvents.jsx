@@ -4,15 +4,6 @@ import "aos/dist/aos.css";
 
 const events = [
   {
-    title: "Uhack 3.0 | Hackathon",
-    date: "22-23 October, 2024",
-    time: "9:00 AM - 7:00 PM",
-    location: "UCER Campus",
-    description: "Embark on a thrilling two-day software and hardware development Hackathon, where participants create innovative applications inspired by given themes within a defined time frame.",
-    image: "hackathon.jpg",
-    link: "#",
-  },
-  {
     title: "Tech Talks: A Journey through DEVOPS",
     date: "Coming Soon",
     time: "Coming Soon",
